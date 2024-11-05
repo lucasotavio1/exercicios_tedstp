@@ -1,0 +1,10 @@
+cod1, qtd1, valorUni1 = input().split()
+cod1 = int(cod1)
+qtd1 = int(qtd1)
+valorUni1 = float(valorUni1)
+cod2, qtd2, valorUni2 = input().split()
+cod2 = int(cod2)
+qtd2 = int(qtd2)
+valorUni2 = float(valorUni2)
+total = qtd1 * valorUni1 + qtd2 * valorUni2
+print("VALOR A PAGAR: R$ {:.2f}".format(total))
