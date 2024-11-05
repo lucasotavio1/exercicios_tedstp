@@ -2,7 +2,7 @@ A, B, C = map(float, input().split())
 pi = 3.14159
 areaTri = A * C/2
 areaCir = pi * C ** 2
-areaTrap = A + B * C/2
+areaTrap = (A + B) * C/2
 areaQua = B ** 2
 areaRet = A * B
 print("TRIANGULO: {:.3f}".format(areaTri))
